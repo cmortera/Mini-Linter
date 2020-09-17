@@ -21,23 +21,22 @@ for (let i = 0; i < betterWords.length; i++) {
   if (betterWords[i] === 'really') {
     checkReally++;
   } else if (betterWords[i] === 'very') {
-    checkVery++;
-  } else if (betterWords[i] === 'basically') {
-    checkBasically++;
-  }
+      checkVery++;
+    } else if (betterWords[i] === 'basically') {
+       checkBasically++;
+    }
 }
 
 
 
 // Counter for how many sentences are in the paragraph.
-
-let checkSentence = 0
+let checkSentence = 0;
 for (let i = 0; i < betterWords.length; i++) {
   if (betterWords[i].includes('.')) {
     checkSentence++;
   } else if (betterWords[i].includes('!')) {
-    checkSentence++;
-  }
+      checkSentence++;
+    }
 }
 
 // Final log of results.
